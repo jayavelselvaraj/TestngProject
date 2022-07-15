@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://www.flipkart.com/"/>
+  <test name="Test(failed)">
+    <parameter name="URL" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="org.testng.TestngTask">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="login"/>
+          <include name="mobiles"/>
+          <include name="screenshot"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- org.testng.TestngTask -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
